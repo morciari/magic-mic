@@ -138,8 +138,8 @@ private:
   const char *client_name = "Client Name";
   const int target_latency = 0;
   const size_t buffer_length = 3200;
-  const size_t max_denoiser_buffer = 512000;
-  const size_t max_read_stream_buffer = 512000;
+  const size_t max_denoiser_buffer = 16000;
+  const size_t max_read_stream_buffer = 16000;
   pa_sample_spec shared_sample_spec;
   string format_module;
   string pipe_file_name;
